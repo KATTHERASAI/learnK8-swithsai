@@ -1,8 +1,12 @@
 
 # Master Kubernetes starting from scratch.
 
+![image](https://github.com/user-attachments/assets/392b4e9e-5e8e-41f2-9611-5106e4a0dff6)
+
+
+
 We are here to learn Kubernetes from the scratch
-![image](https://github.com/user-attachments/assets/a7b7db20-9b5f-4495-9979-677c22caadda)
+
 
 
 ## Why Kubernetes ?
