@@ -5,9 +5,9 @@ We are here to learn Kubernetes from the scratch
 
 ## Why Kubernetes ?
 
-As we all know, Docker is used to run containers. Then why Kubernetes?
+As we all know, Docker is used to run containers, Then why we need Kubernetes?
 
-i) Single host
+i) Single host in Docker
 
 ii) Containers are ephemerial(short lived) in nature.
 
