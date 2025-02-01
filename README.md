@@ -40,4 +40,7 @@ c) Docker Runtime: It is responsible for running your container inside the pods.
 
 Pod: in simple words it is the defination of how to run a container.
 
+![image](https://github.com/user-attachments/assets/c8c22d17-27b7-44e9-be28-67ad50717b57)
+
+
 
