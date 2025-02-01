@@ -20,27 +20,31 @@ Kubernetes is by default installed as cluster
 
 Kubernetes cluster consists of two planes: 1) Control Plane 2) Data Plane
 
+![image](https://github.com/user-attachments/assets/e3e01ac4-31d8-4598-bc8e-02e8237fac13)
+
+
 Control Plane consists of:
-a) API Server: It is the heart of Kubernetes, where it exposes the external world to your Kubernetes cluster. It handles all incoming security requests. It does everything in Kubernetes; for example, when a user creates a pod, it will take care of which pod goes to which node, etc. It is present in the master/control plane.
+a) **API Server**: It is the heart of Kubernetes, where it exposes the external world to your Kubernetes cluster. It handles all incoming security requests. It does everything in Kubernetes; for example, when a user creates a pod, it will take care of which pod goes to which node, etc. It is present in the master/control plane.
 
-b) Scheduler: It is responsible for scheduling your pods or resources.
+b) **Scheduler**: It is responsible for scheduling your pods or resources.
 
-c) etcd: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
+c)** etcd**: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
 
-d) Controller Manager: It is used to check if the controllers are up and running.
+d) **Controller Manage**r: It is used to check if the controllers are up and running.
 
-e) Cloud Controller Manager: In simple words, it acts as a bridge between Kubernetes and cloud providers (e.g., Amazon Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), etc.).
+e) **Cloud Controller Manager**: In simple words, it acts as a bridge between Kubernetes and cloud providers (e.g., Amazon Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), etc.).
 
 Data Plane consists of:
-a) Kubelet: It is responsible for the creation of pods. If any pod goes down, it immediately informs the worker node and rolls out new pods.
+a) **Kubelet**: It is responsible for the creation of pods. If any pod goes down, it immediately informs the worker node and rolls out new pods.
 
-b) Kube-proxy: It is responsible for networking, such as generating the IP address for pods and updating the IP tables.
+b) **Kube-prox**y: It is responsible for networking, such as generating the IP address for pods and updating the IP tables.
 
-c) Docker Runtime: It is responsible for running your container inside the pods.
+c) **Docker Runtime**: It is responsible for running your container inside the pods.
 
-Pod: in simple words it is the defination of how to run a container.
+**Pod**: in simple words it is the defination of how to run a container.
+![image](https://github.com/user-attachments/assets/5c4a1c8b-5661-44f0-ab24-ead188ccc2ad)
 
-![image](https://github.com/user-attachments/assets/c8c22d17-27b7-44e9-be28-67ad50717b57)
+
 
 
 
