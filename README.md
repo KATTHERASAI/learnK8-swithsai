@@ -2,6 +2,8 @@
 # Master Kubernetes starting from scratch.
 
 We are here to learn Kubernetes from the scratch
+![image](https://github.com/user-attachments/assets/a7b7db20-9b5f-4495-9979-677c22caadda)
+
 
 ## Why Kubernetes ?
 
@@ -21,14 +23,14 @@ Hence, Kubernetes solves the above problems.
  
 ## Let's understand the Kubernetes architecture
 
-Kubernetes is by default installed as cluster
+* Kubernetes is by default installed as cluster
 
-Kubernetes cluster consists of two planes: 1) Control Plane 2) Data Plane
+* Kubernetes cluster consists of two planes: 1) Control Plane 2) Data Plane
 
 ![image](https://github.com/user-attachments/assets/e3e01ac4-31d8-4598-bc8e-02e8237fac13)
 
 
-Control Plane consists of:
+**Control Plane consists of:**
 
 a) **API Server**: It is the heart of Kubernetes, where it exposes the external world to your Kubernetes cluster. It handles all incoming security requests. It does everything in Kubernetes; for example, when a user creates a pod, it will take care of which pod goes to which node, etc. It is present in the master/control plane.
 
@@ -40,7 +42,7 @@ d) **Controller Manage**r: It is used to check if the controllers are up and run
 
 e) **Cloud Controller Manager**: In simple words, it acts as a bridge between Kubernetes and cloud providers (e.g., Amazon Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), etc.).
 
-Data Plane consists of:
+**Data Plane consists of:**
 
 a) **Kubelet**: It is responsible for the creation of pods. If any pod goes down, it immediately informs the worker node and rolls out new pods.
 
