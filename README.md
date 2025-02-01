@@ -7,10 +7,14 @@ We are here to learn Kubernetes from the scratch
 
 As we all know, Docker is used to run containers. Then why Kubernetes?
 
-i) Single host in Dockter
+i) Single host
+
 ii) Containers are ephemerial(short lived) in nature.
+
 iii) Containers do not support auto scaling
+
 iv) Containers do not support auto Healing
+
 v) Containers do support Enterprise level features (eg: Load banlancing, firewall, api gate ways, white listing , black listing e.t.c )
 
 Hence, Kubernetes solves the above problems.
@@ -30,13 +34,14 @@ a) **API Server**: It is the heart of Kubernetes, where it exposes the external 
 
 b) **Scheduler**: It is responsible for scheduling your pods or resources.
 
-c)**Etcd**: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
+c) **Etcd**: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
 
 d) **Controller Manage**r: It is used to check if the controllers are up and running.
 
 e) **Cloud Controller Manager**: In simple words, it acts as a bridge between Kubernetes and cloud providers (e.g., Amazon Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), etc.).
 
 Data Plane consists of:
+
 a) **Kubelet**: It is responsible for the creation of pods. If any pod goes down, it immediately informs the worker node and rolls out new pods.
 
 b) **Kube-prox**y: It is responsible for networking, such as generating the IP address for pods and updating the IP tables.
