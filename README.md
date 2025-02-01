@@ -5,8 +5,9 @@ We are here to learn Kubernetes from the scratch
 
 ## Why Kubernetes ?
 
-As we all know, Docker is used to run containers.Then why Kubernetes?
-i) Single host
+As we all know, Docker is used to run containers. Then why Kubernetes?
+
+i) Single host in Dockter
 ii) Containers are ephemerial(short lived) in nature.
 iii) Containers do not support auto scaling
 iv) Containers do not support auto Healing
