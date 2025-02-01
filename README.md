@@ -24,11 +24,12 @@ Kubernetes cluster consists of two planes: 1) Control Plane 2) Data Plane
 
 
 Control Plane consists of:
+
 a) **API Server**: It is the heart of Kubernetes, where it exposes the external world to your Kubernetes cluster. It handles all incoming security requests. It does everything in Kubernetes; for example, when a user creates a pod, it will take care of which pod goes to which node, etc. It is present in the master/control plane.
 
 b) **Scheduler**: It is responsible for scheduling your pods or resources.
 
-c)** etcd**: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
+c)**Etcd**: Entire Kubernetes cluster information is stored as key-value pairs/objects. It acts as a backup service.
 
 d) **Controller Manage**r: It is used to check if the controllers are up and running.
 
