@@ -21,7 +21,7 @@ iii) Containers do not support auto scaling
 
 iv) Containers do not support auto Healing
 
-v) Containers do support Enterprise level features (eg: Load banlancing, firewall, api gate ways, white listing , black listing e.t.c )
+v) Containers do support Enterprise level features (eg: Load balancing, firewall, api gate ways, white listing , black listing e.t.c )
 
 Hence, Kubernetes solves the above problems.
  
