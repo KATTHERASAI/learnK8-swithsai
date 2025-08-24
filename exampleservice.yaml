@@ -1,0 +1,17 @@
+---
+# Source: example.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: exampls.service
+  labels:
+    example.io/name: example.service
+   
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      name: tcp-service
+      targetPort: 8080
+  selector:
+    example.io/name: example.service
